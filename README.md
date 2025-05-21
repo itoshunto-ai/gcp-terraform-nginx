@@ -35,7 +35,7 @@
 │   ├── main.tf
 │   ├── variables.tf
 │   ├── outputs.tf
-├── k8s-manifests/           # Kubernetesマニフェスト（Nginx, HPAなど）
+├── GKE/           # Kubernetesマニフェスト（Nginx, HPAなど）
 │   ├── nginx-deployment.yaml
 │   ├── nginx-service.yaml
 ├── monitoring/              # Prometheus & GrafanaのHelmチャート導入
