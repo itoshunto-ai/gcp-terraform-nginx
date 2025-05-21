@@ -38,7 +38,6 @@
 ├── k8s-manifests/           # Kubernetesマニフェスト（Nginx, HPAなど）
 │   ├── nginx-deployment.yaml
 │   ├── nginx-service.yaml
-│   ├── hpa.yaml
 ├── monitoring/              # Prometheus & GrafanaのHelmチャート導入
 ├── k6-tests/                # k6による負荷テストスクリプト
 │   └── loadtest.js
